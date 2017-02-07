@@ -1,0 +1,101 @@
+/************************
+*
+* HTML/HEADER/BODY/FOOTER
+*
+*************************/
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    min-height: 100%;
+    margin-bottom: 2em;
+    background: rgba(217,217,217,1);
+    background: -moz-linear-gradient(top, rgba(217,217,217,1) 0%, rgba(227,227,227,1) 0%, rgba(189,188,189,1) 0%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(217,217,217,1)), color-stop(0%, rgba(227,227,227,1)), color-stop(0%, rgba(189,188,189,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(217,217,217,1) 0%, rgba(227,227,227,1) 0%, rgba(189,188,189,1) 0%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(217,217,217,1) 0%, rgba(227,227,227,1) 0%, rgba(189,188,189,1) 0%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(217,217,217,1) 0%, rgba(227,227,227,1) 0%, rgba(189,188,189,1) 0%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(217,217,217,1) 0%, rgba(227,227,227,1) 0%, rgba(189,188,189,1) 0%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#ededed', GradientType=0 );
+}
+.footer {
+    min-width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: .5em;
+    background-color: transparent;
+    font-size: 1em;
+    font-weight: bold;
+    color: #111;
+    z-index: -1;
+}
+.footer-text {
+    z-index: -1;
+}
+
+#mainLogo { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#downloadJumbotron {
+    width: 75%;
+    min-height: 31em;
+    margin: auto;
+    background: rgba(255,166,33,1);
+    background: -moz-linear-gradient(top, rgba(255,166,33,1) 0%, rgba(255,217,120,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,166,33,1)), color-stop(100%, rgba(255,217,120,1)));
+    background: -webkit-linear-gradient(top, rgba(255,166,33,1) 0%, rgba(255,217,120,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,166,33,1) 0%, rgba(255,217,120,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,166,33,1) 0%, rgba(255,217,120,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,166,33,1) 0%, rgba(255,217,120,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa621', endColorstr='#ffd978', GradientType=0 );
+    padding-top: 2em;
+}
+
+.navbar {
+    width: 50em;
+    margin: auto;
+    margin-left: 14.5em;
+    margin-top: 2em;
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0.5em;
+}
+.nav-tabs{
+    border-width: 0;
+}
+.nav-tabs > li > a {
+    background-color: transparent;
+    font-family: Times New Romans;
+    font-weight: Bold;
+    font-size: 1.5em;
+    color: #f9f8f7;
+    margin-left: 1em;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    background-color: rgba(255,166,33,1) !important;
+    color: #337ab7;
+}
+.nav-tabs > li > a:hover {
+    background-color: rgba(255,166,33,1) !important;
+    border-bottom-color: transparent;
+    color: #337ab7;
+}
+.custom-thumbnail {
+    background-color: transparent;
+    margin-top: 2em;
+}
+.thumbnail {
+    background-color: transparent;
+    border-color: transparent;
+}
+.caption > h2 {
+    font-weight: bold;
+}
+.caption > h2 > a:link {
+    text-decoration: none;
+}
