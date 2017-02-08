@@ -9,9 +9,11 @@
             <img class="img-responsive" id="mainLogo" src="img/BeeLogo.png" alt="Bee Logo"></img>
             <br>
             <p>Create your own Twitch&trade; commercial breaks in minutes!</p>
-            <p><a id ="downloadBtn" class="btn btn-primary btn-lg" href="..\download\test.txt" role="button" download>Download</a></p>
+            <div class="checkbox">
+                <label><input id="eulaCheckbox" type="checkbox" value=""> By clicking here you indicate that you have read and agree to the terms in the <a href="includes/eula-english.html">End User License Agreement(EULA).</a></label>
+            </div>
             <br>
-            <span>Download Counter:  <span id="span_downloadsCounter"></span></span>
+            <span class="downloadCounter">BeeRB has been downloaded<span id="span_downloadsCounter"></span> times.</span>
         </div>
         <div id="contact" class="tab-pane fade">
             <img class="img-responsive" id="mainLogo" src="img/BeeLogo.png" alt="Bee Logo"></img>
@@ -45,6 +47,11 @@
                 </div>
             </div>
         </div>
+        <div id="forum" class="tab-pane fade">
+            <img class="img-responsive" id="mainLogo" src="img/BeeLogo.png" alt="Bee Logo"></img>
+            <h1>Site currently under construction!</h1>
+            <p>I will be implementing the forum as soon as possible.  Follow me on social media for updates related to BeeRB. :)</p>
+        </div>   
     </div>
     
     <div class="row text-center">

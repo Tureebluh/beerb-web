@@ -1,6 +1,9 @@
     <footer class="footer">
 
         <span class="footer-text">BeeRB <span id="year"></span><small><sup>&trade;</sup></small><br> All Rights Reserved.</span>
+        <br>
+        <span>By visiting this website you agree to our <a href="includes/terms-use-english.html">Terms of Use </a>and</span>
+        <span><a href="includes/privacy-policy-english.html"> Privacy Policy.</a></span>
 
     </footer>
 

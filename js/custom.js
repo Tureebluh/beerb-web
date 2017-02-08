@@ -25,7 +25,6 @@ $(function(){
  * Retrieve downloads counter and update span element
  ******************************************************************************/
 function get_downloadCounter() {
-    
     $.ajax({
         url: "includes/get_downloadCounter.php",
         type: "GET",
@@ -39,7 +38,6 @@ function get_downloadCounter() {
  * Update downloads counter in db
  ******************************************************************************/
 function update_downloadCounter() {
-    
     $.ajax({
         url: "includes/update_downloadCounter.php",
         type: "GET",
@@ -50,10 +48,22 @@ function update_downloadCounter() {
         }
     });
 }
-
 /*******************************************************************************
- * Call on function to update downloadsCounter in db on button click
+ * Call on function to check if EULA has been agreed, and add download button if so
+ ******************************************************************************/
+$('#eulaCheckbox').on('click', function(){
+    var check = $("#eulaCheckbox").prop("checked");
+    if(check) {
+        $('.checkbox').before("<p><a id=\"downloadBtn\" class=\"btn btn-primary btn-lg\" href=\"download/test.txt\" role=\"button\" download>Download</a></p>");
+    } else {
+        $('#downloadBtn').remove();
+    }
+    	
+});
+/*******************************************************************************
+ * Call on function to download file and update download counter.
+ * Button is only seen if user has agreed to EULA.
  ******************************************************************************/
 $('#downloadBtn').on('click', function(){
-    update_downloadCounter();	
+    update_downloadCounter();
 });

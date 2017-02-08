@@ -57,7 +57,7 @@ body {
 .navbar {
     width: 50em;
     margin: auto;
-    margin-left: 14.5em;
+    margin-left: 8.5em;
     margin-top: 2em;
     background-color: transparent;
     border-color: transparent;
@@ -85,6 +85,9 @@ body {
     border-bottom-color: transparent;
     color: #337ab7;
 }
+.donateBtn {
+     margin-left: 22.5em;
+}
 .custom-thumbnail {
     background-color: transparent;
     margin-top: 2em;
@@ -96,6 +99,13 @@ body {
 .caption > h2 {
     font-weight: bold;
 }
-.caption > h2 > a:link {
+a:link {
     text-decoration: none;
+}
+.checkbox {
+    width: 60%;
+    margin: auto;
+}
+.downloadCounter {
+    margin-bottom: 0em;
 }
