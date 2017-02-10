@@ -54,7 +54,7 @@ function update_downloadCounter() {
 $('#eulaCheckbox').on('click', function(){
     var check = $("#eulaCheckbox").prop("checked");
     if(check) {
-        $('.checkbox').before("<p><a id=\"downloadBtn\" class=\"btn btn-primary btn-lg\" href=\"BeeRB-1.0.6-win64-beta.exe\" role=\"button\" download>Download</a></p>");
+        $('.checkbox').before("<p><a id=\"downloadBtn\" class=\"btn btn-primary btn-lg\" href=\"download/BeeRB-1.0.6-win64-beta.exe\" role=\"button\" download>Download</a></p>");
     } else {
         $('#downloadBtn').remove();
     }
